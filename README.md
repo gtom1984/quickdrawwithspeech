@@ -19,4 +19,4 @@ Setup the Google Speech API keys using this guide (the **Setting up authenticati
 
 This will require a Google Cloud account to access the APIs.  This script works fine with the standard environment variable keys.
 
-Then download **quickdrawwithspeech.py** and run it.  A canvas should appear and it will draw scene when you speak.
+Then download **quickdrawwithspeech.py** and run it.  A canvas should appear and it will draw a simple scene when you speak.
