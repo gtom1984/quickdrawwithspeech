@@ -1,5 +1,5 @@
 # quickdrawwithspeech
-Simple python script utilising Google Speech APIs and QuickDraw to convert speech into simple drawings  
+Simple python script utilising Google Speech APIs and QuickDraw to convert speech into simple drawings.  
 
 **Installation**  
 
