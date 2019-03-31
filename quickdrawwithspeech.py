@@ -84,12 +84,12 @@ class draw_thing():
                 y = y + self.padding_y
                 if index > 0:
                     self.lines.append(canvas.create_line(x_last,
-                                                        y_last,
-                                                        x,
-                                                        y,
-                                                        width=5,
-                                                        cap=tkinter.ROUND,
-                                                        join=tkinter.ROUND))
+                                                         y_last,
+                                                         x,
+                                                         y,
+                                                         width=5,
+                                                         cap=tkinter.ROUND,
+                                                         join=tkinter.ROUND))
                 x_last = x
                 y_last = y
                 index = index + 1
@@ -146,9 +146,9 @@ def word_entities(word):
                     padding_x = last_x_offset
                     padding_y = (HEIGHT / 2) - 100
                     drawing = draw_thing(drawings,
-                                        name,
-                                        padding_x=padding_x,
-                                        padding_y=padding_y)
+                                         name,
+                                         padding_x=padding_x,
+                                         padding_y=padding_y)
                     drawing.animate()
                     all_drawings.append(drawing)
                     last_x_offset = last_x_offset + X_OFFSET_ADD
